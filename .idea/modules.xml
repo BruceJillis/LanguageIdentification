@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/PycharmProjects/LIGA/.idea/LIGA.iml" filepath="$USER_HOME$/PycharmProjects/LIGA/.idea/LIGA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LanguageIdentification.iml" filepath="$PROJECT_DIR$/.idea/LanguageIdentification.iml" />
+    </modules>
+  </component>
+</project>
+

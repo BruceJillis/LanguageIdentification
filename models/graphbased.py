@@ -18,6 +18,10 @@ class GraphBased(Model):
       for i in range(1, self.n):
          # note use trick to force closing over the value of nodes instead of it's name
          self.nodes = defaultdict(lambda nodes=self.nodes: nodes)
+      # buffer to store sentences for the finalization phase
+      self.sentences = []
+      # set to compute the intersection of training sentences ngram's
+      self.intersection = set()
 
    def addNode(self, ngram, language):
       """add an n-gram to the model for a language"""
@@ -39,13 +43,19 @@ class GraphBased(Model):
       return cursor
 
    def train(self, language, string):
+      self.sentences.append((string, language))
+      self.intersection = self.intersection.intersection(set(list(ngrams(string, self.n))))
+
+   def finalize(self, *args, **kwargs):
       """add all n-grams from a string for a language to the model"""
-      prev = None
-      for ngram in ngrams(string, self.n):
-         self.addNode(ngram, language)
-         if (prev != None) and (ngram != None):
-            self.addEdge(prev, ngram, language)
-         prev = ngram
+      for string, language in self.sentences:
+         prev = None
+         for ngram in ngrams(string, self.n):
+            if ngram in self.intersection:
+               self.addNode(ngram, language)
+            if (prev != None) and (ngram != None):
+               self.addEdge(prev, ngram, language)
+            prev = ngram
 
    def score(self, string):
       """score the string via it's n-grams"""
