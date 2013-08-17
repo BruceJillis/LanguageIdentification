@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fd3a6f0-a401-4073-9dec-d304b45457d5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
     </list>
     <ignored path="LanguageIdentification.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +45,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="167" column="56" selection-start="5264" selection-end="5264" vertical-scroll-proportion="4.352113">
+            <state line="167" column="57" selection-start="4714" selection-end="4714" vertical-scroll-proportion="0.94014084">
               <folding />
             </state>
           </provider>
@@ -497,7 +495,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="56" selection-start="5264" selection-end="5264" vertical-scroll-proportion="4.352113">
+        <state line="167" column="57" selection-start="4714" selection-end="4714" vertical-scroll-proportion="0.94014084">
           <folding />
         </state>
       </provider>
