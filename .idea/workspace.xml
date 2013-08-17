@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fd3a6f0-a401-4073-9dec-d304b45457d5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/graphbased.py" afterPath="$PROJECT_DIR$/models/graphbased.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
     </list>
     <ignored path="LanguageIdentification.iws" />
@@ -23,10 +24,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="graphbased.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="graphbased.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/graphbased.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="24" selection-start="2215" selection-end="2215" vertical-scroll-proportion="0.8537005">
+            <state line="49" column="26" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -35,7 +36,18 @@
       <file leaf-file-name="run.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="22" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0">
+            <state line="16" column="21" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1376735599904" expanded="true" signature="893:1058" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="167" column="56" selection-start="5264" selection-end="5264" vertical-scroll-proportion="4.352113">
               <folding />
             </state>
           </provider>
@@ -83,8 +95,9 @@
       <list>
         <option value="$USER_HOME$/PycharmProjects/LIGA/liga.py" />
         <option value="$USER_HOME$/PycharmProjects/LIGA/remarks" />
-        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/models/graphbased.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -307,7 +320,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -371,13 +384,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/PycharmProjects/LIGA/liga.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/LIGA/remarks">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
@@ -388,7 +394,9 @@
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="21" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1376735599904" expanded="true" signature="893:1058" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -471,16 +479,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
+    <entry file="file://$PROJECT_DIR$/models/graphbased.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="22" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0">
+        <state line="49" column="26" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/graphbased.py">
+    <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="24" selection-start="2215" selection-end="2215" vertical-scroll-proportion="0.8537005">
+        <state line="16" column="21" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1376735599904" expanded="true" signature="893:1058" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="167" column="56" selection-start="5264" selection-end="5264" vertical-scroll-proportion="4.352113">
           <folding />
         </state>
       </provider>
