@@ -30,7 +30,7 @@ for n in range(1, 4):
 for n in range(1, 4):
    experiment.setup(CrossEntropy, n=n)
 for n in range(1, 4):
-   experiment.setup(GraphBased, n=2)
+   experiment.setup(GraphBased, n=n)
 for n in range(1, 4):
    experiment.setup(NGramDisplacement, n=n)
 experiment.setup(SVM, n=2)
